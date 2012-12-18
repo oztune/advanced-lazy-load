@@ -4,16 +4,18 @@ Donate link:
 Tags: lazy load, image lazyload
 Requires at least: 3.3
 Tested up to: 3.4.2
-Stable tag: 
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-By using this pulgin, reduce the loading time while opening your wordpress website, accelerate page openning time. Loading image in the last and display base on user screen scrolling.
+Reduce the loading time while opening your wordpress website, accelerate openning time. Loading image in the last and display base on user screen scrolling.
 
 == Description ==
 
 After active the plugin, when end user open website,
 will load the text first, and the then load images in your website, in this case will help reduce the loading time, the image is still in your website, just load it later and base on user screen scrolling by jQuery script, scrolling down, more image will be loaded, no need to call back any external server.
+
+Check out the detail of thus plugin "<a href="http://www.runinweb.com/projects/advanced-lazy-load/" target="_blank">Advanced lazy load</a>" .
 
 == Installation ==
 
@@ -23,8 +25,14 @@ will load the text first, and the then load images in your website, in this case
 
 == Frequently asked questions ==
 
-= A question that someone might have =
 Q: Where are the images going?
 A: Still in your website, just make it load on demand.
 Q: What should I do after activate it.
 A: You can set the pixel in the setting, if don`t, then will use the default setting.
+
+
+== Screenshots ==
+
+1. /screenshot-1.jpg
+
+2. /screenshot-2.jpg
