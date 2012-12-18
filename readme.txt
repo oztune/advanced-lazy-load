@@ -4,7 +4,7 @@ Donate link:
 Tags: lazy load, image lazyload
 Requires at least: 3.3
 Tested up to: 3.4.2
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,3 +36,9 @@ A: You can set the pixel in the setting, if don`t, then will use the default set
 1. /screenshot-1.jpg
 
 2. /screenshot-2.jpg
+
+
+== Changelog ==
+
+= 1.1 =
+* 	upgrade : change the wording error.
