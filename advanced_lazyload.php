@@ -4,7 +4,7 @@
  * Plugin URI: http://www.runinweb.com/projects/advanced-lazy-load/
  * Description: By using this pulgin, reduce the loading time while opening your wordpress website, accelerate page openning time. Loading image in the last and display base on user screen scrolling.
  * Author: kasonzhao
- * Version: 1.1
+ * Version: 1.2
  * Author URI: http://www.runinweb.com/projects/advanced-lazy-load/
  * License: GPLv2 or later.
  */
@@ -77,21 +77,24 @@ function Advancedlazyload_form()
 
  <?php
   }
-//calling jquery_load_scripts function to load js files
-add_action('wp_enqueue_scripts', 'jquery_load_scripts');
-function jquery_load_scripts()
+
+
+  
+if (!is_admin())
   {
-    //Check whether the core jqury library enqued or not. If not enqued the enque this
-    if (!wp_script_is('jquery'))
-      {
-        wp_enqueue_script('jquery');
-      }
-  }
-if (!is_admin() && !is_single())
-  {
+  
+  		wp_deregister_script('jquery'); 
+		wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js', false, '1.3.2'); 
+		wp_enqueue_script('jquery');
+		
+  //<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
     wp_enqueue_script('Advancedlazyload', plugins_url('Advanced_lazyload.js', __FILE__), "", "advacned");
     $ifd_pixel = get_option('ifd_pixel');
     wp_localize_script('Advancedlazyload', 'ifd_pixel', $ifd_pixel);
+	
+	
+	
+	
     function Advaced_lazyload($buffer)
       {
         $plugin_dir_path = plugin_dir_url(__FILE__);
