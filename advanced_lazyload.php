@@ -4,7 +4,7 @@
  * Plugin URI: http://www.runinweb.com/projects/advanced-lazy-load/
  * Description: By using this pulgin, reduce the loading time while opening your wordpress website, accelerate page openning time. Loading image in the last and display base on user screen scrolling.
  * Author: kasonzhao
- * Version: 1.1
+ * Version: 1.3
  * Author URI: http://www.runinweb.com/projects/advanced-lazy-load/
  * License: GPLv2 or later.
  */
