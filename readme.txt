@@ -4,7 +4,7 @@ Donate link:
 Tags: lazy load, image lazyload
 Requires at least: 3.3
 Tested up to: 3.5
-Stable tag: 1.4
+Stable tag: 1.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,7 +18,7 @@ will load the text first, and the then load images in your website, in this case
 Check out the detail of thus plugin "<a href="http://www.runinweb.com/projects/advanced-lazy-load/" target="_blank">Advanced lazy load</a>" .
 
 
-<h3>Video demo:</h3>
+<h3>Video demo 1.3: (1.4.1 video demo will release soon.)</h3>
 <p style="padding-left: 60px;"><iframe width="650" height="396" frameborder="0" src="http://www.screenr.com/embed/5R47"></iframe></p>
 
 
@@ -54,3 +54,7 @@ A: You can set the pixel in the setting, if don`t, then will use the default set
 
 = 1.3 =
 * 	Bug fix : Fix the update alert issue.
+
+
+= 1.4.1 =
+* 	New option: Setting duration in setting page

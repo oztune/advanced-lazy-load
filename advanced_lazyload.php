@@ -1,11 +1,11 @@
 <?php
 /*
  * Plugin Name: Advanced lazy load
- * Plugin URI: http://www.runinweb.com/projects/advanced-lazy-load/
+ * Plugin URI: http://www.lookingimage.com/wordpress-plugin/wordpress-advanced-lazy-load/
  * Description: By using this pulgin, reduce the loading time while opening your wordpress website, accelerate page openning time. Loading image in the last and display base on user screen scrolling.
  * Author: kasonzhao
- * Version: 1.3
- * Author URI: http://www.runinweb.com/projects/advanced-lazy-load/
+ * Version: 1.4.1
+ * Author URI: http://www.lookingimage.com/wordpress-plugin/wordpress-advanced-lazy-load/
  * License: GPLv2 or later.
  */
  
@@ -25,6 +25,9 @@ register_activation_hook( __FILE__, 'lz_install' );
 function lz_install() {
 	$ifd_pixel 		= (get_option('ifd_pixel') != '') ? get_option('ifd_pixel') : '0' ;
 	update_option('ifd_pixel', $ifd_pixel);
+	
+		$ifd_duration 		= (get_option('ifd_duration') != '') ? get_option('ifd_duration') : '1000' ;
+	update_option('ifd_duration', $ifd_duration);
 }
 
 
@@ -46,7 +49,7 @@ function Advancedlazyload_form()
     echo '<h2>Welcome to use Advanced lazy load</h2>';
     echo '<p>By using ths plugin for wordpress, it will reduce the loading time while opening your wordpress website</p>';
     echo '<p>This is initial edition of Advanced lazy load, many features will be added in future versions, compatible with all current browsers.</p>';
-	echo '<p>Please visit <a href="http://www.runinweb.com/projects/advanced-lazy-load/" target="_blank" >Advanced lazy load</a> for guidance/questions/news, enjoy! If you want me add you as demo website? Leave your comments! Next strong release will come soon!</p>';
+	echo '<p>Please visit <a href="http://www.lookingimage.com/wordpress-plugin/wordpress-advanced-lazy-load/" target="_blank" >Advanced lazy load</a> for guidance/questions/news, enjoy! If you want me add you as demo website? Leave your comments! Next strong release will come soon!</p>';
     /**
      * Check whether the form submitted or not.
      */
@@ -55,6 +58,11 @@ function Advancedlazyload_form()
         echo "<p><strong>Options saved!</strong></p>";
         $ddsadsa = trim($_POST['ifd_pixel']);
         update_option('ifd_pixel', $ddsadsa);
+		
+		  $duration = trim($_POST['ifd_duration']);
+        update_option('ifd_duration', $duration);
+		
+		
       }
 ?>
 
@@ -66,6 +74,15 @@ function Advancedlazyload_form()
     echo get_option('ifd_pixel');
 ?>" />px</td>
 			</tr>
+			
+			
+			<tr>
+				<td>Fading in duration:</td>
+				<td><input type="text"  maxlength="10" size="10" name="ifd_duration" value="<?php
+    echo get_option('ifd_duration');
+?>" />millisecond</td>
+			</tr>
+			
 			<tr>
 			
 				<td></td>
@@ -88,7 +105,17 @@ if (!is_admin())
 		
     wp_enqueue_script('Advancedlazyload', plugins_url('Advanced_lazyload.js', __FILE__), "", "advacned");
     $ifd_pixel = get_option('ifd_pixel');
-    wp_localize_script('Advancedlazyload', 'ifd_pixel', $ifd_pixel);
+	 $duration_advanced = get_option('ifd_duration');
+	
+  //wp_localize_script('Advancedlazyload', 'ifd_pixel', $ifd_pixel,'duration_advanced',$duration_advanced);
+	
+	wp_localize_script('Advancedlazyload', 'obj_lz', array(
+	 
+        'ifd_pixel' => get_option('ifd_pixel'),
+        'ifd_duration' => get_option('ifd_duration')
+   
+));
+	
 	
 	
 	
