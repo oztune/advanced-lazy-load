@@ -4,7 +4,7 @@ Donate link:
 Tags: lazy load, image lazyload
 Requires at least: 3.3
 Tested up to: 3.5
-Stable tag: 1.4.1
+Stable tag: 1.4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,5 +56,5 @@ A: You can set the pixel in the setting, if don`t, then will use the default set
 * 	Bug fix : Fix the update alert issue.
 
 
-= 1.4.1 =
+= 1.4.2 =
 * 	New option: Setting duration in setting page
