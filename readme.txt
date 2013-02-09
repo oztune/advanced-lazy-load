@@ -4,7 +4,7 @@ Donate link:
 Tags: lazy load, image lazyload
 Requires at least: 3.3
 Tested up to: 3.5
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,6 +16,11 @@ After active the plugin, when end user open website,
 will load the text first, and the then load images in your website, in this case will help reduce the loading time, the image is still in your website, just load it later and base on user screen scrolling by jQuery script, scrolling down, more image will be loaded, no need to call back any external server.
 
 Check out the detail of thus plugin "<a href="http://www.runinweb.com/projects/advanced-lazy-load/" target="_blank">Advanced lazy load</a>" .
+
+
+<h3>Video demo:</h3>
+<p style="padding-left: 60px;"><iframe width="650" height="396" frameborder="0" src="http://www.screenr.com/embed/5R47"></iframe></p>
+
 
 == Installation ==
 
