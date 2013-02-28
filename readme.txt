@@ -15,11 +15,9 @@ Reduce the loading time while opening your wordpress website, accelerate opennin
 After active the plugin, when end user open website,
 will load the text first, and the then load images in your website, in this case will help reduce the loading time, the image is still in your website, just load it later and base on user screen scrolling by jQuery script, scrolling down, more image will be loaded, no need to call back any external server.
 
-Check out the detail of thus plugin "<a href="http://www.runinweb.com/projects/advanced-lazy-load/" target="_blank">Advanced lazy load</a>" .
+Check out the detail of thus plugin "<a href="http://www.lookingimage.com/wordpress-plugin/" target="_blank">Advanced lazy load</a>" .
 
 
-<h3>Video demo 1.3: (1.4.1 video demo will release soon.)</h3>
-<p style="padding-left: 60px;"><iframe width="650" height="396" frameborder="0" src="http://www.screenr.com/embed/5R47"></iframe></p>
 
 
 == Installation ==
