@@ -69,8 +69,15 @@ function Advancedlazyload_form()
 	<h2>Welcome to use Advanced lazy load</h2>
 <p>By using ths plugin for wordpress, it will reduce the loading time while opening your wordpress website</p>
 <p>This is initial edition of Advanced lazy load, many features will be added in future versions, compatible with all current browsers.</p>
-	 <p>Please visit <a href="http://www.lookingimage.com/wordpress-plugin/wordpress-advanced-lazy-load/" target="_blank" >Advanced lazy load</a> for guidance/questions/news, enjoy! If you want me add you as demo website? Leave your comments! Next strong release will come soon!</p>
-	 <p>Need support? Click here! <a href="http://www.lookingimage.com/forums/discussion/" target="_blank">Support forum</a>.</p>
+	   <p>Following links can help you:</p>
+   
+   <ul style="margin-left:40px;"> 
+   <li><a href="http://www.lookingimage.com/wordpress-plugin/wordpress-advanced-lazy-load/" target="_blank">Plugin details (FAQ .etc)</a></li>
+   <li><a href="http://www.lookingimage.com/forums/discussion/" target="_blank">Support forum</a></li>
+   <li><a href="http://lookingimage.com/" target="_blank">Author home page</a></li>
+   <li><a href="http://www.lookingimage.com/wordpress-themes/" target="_blank">Free WordPress themes</a></li>
+   <li><a href="http://www.lookingimage.com/wordpress-plugin/" target="_blank">Other pulgins from lookingimage.com</a></li>
+   </ul>
 		<table id="aws-option-table">
 			<tr>
 				<td>Pixel:</td>
