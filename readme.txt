@@ -8,15 +8,19 @@ Stable tag: 1.4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Reduce the loading time while opening your wordpress website, accelerate openning time. Loading image in the last and display base on user screen scrolling.
+Reduce the loading time while opening your wordpress website, accelerate openning time. Images outside of viewport (visible part of web page) wont be loaded before user scrolls to them..
 
 == Description ==
+
+Advanced lazy load is aiming to speed up your website which powered by WordPress. 
+It delays loading of images in (long) web pages. 
+Images outside of viewport (visible part of web page) wont be loaded before user scrolls to them.
+
 
 After active the plugin, when end user open website,
 will load the text first, and the then load images in your website, in this case will help reduce the loading time, the image is still in your website, just load it later and base on user screen scrolling by jQuery script, scrolling down, more image will be loaded, no need to call back any external server.
 
-	   <p>Following links can help you:</p>
-   
+Following links can help you:  
    <ul style="margin-left:40px;"> 
    <li><a href="http://www.lookingimage.com/wordpress-plugin/wordpress-advanced-lazy-load/" target="_blank">Plugin details (FAQ .etc)</a></li>
    <li><a href="http://www.lookingimage.com/forums/discussion/" target="_blank">Support forum</a></li>
