@@ -102,7 +102,7 @@ function Advancedlazyload_form()
 	
 
 <div  style="float:right;border-left:1px solid #eee;">
-<iframe  width="300" height="450" frameborder="1" src="http://www.runinweb.com/news.html"></iframe>
+<iframe  width="300" height="510" frameborder="1" src="http://www.runinweb.com/news.html"></iframe>
 <div style="clear:both;"></div>
 
 </div>
