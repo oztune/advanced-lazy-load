@@ -48,11 +48,7 @@ function Advancedlazyload_form()
   {
   
   
-    echo '<h2>Welcome to use Advanced lazy load</h2>';
-    echo '<p>By using ths plugin for wordpress, it will reduce the loading time while opening your wordpress website</p>';
-    echo '<p>This is initial edition of Advanced lazy load, many features will be added in future versions, compatible with all current browsers.</p>';
-	echo '<p>Please visit <a href="http://www.lookingimage.com/wordpress-plugin/wordpress-advanced-lazy-load/" target="_blank" >Advanced lazy load</a> for guidance/questions/news, enjoy! If you want me add you as demo website? Leave your comments! Next strong release will come soon!</p>';
-	echo '<p>Need support? Click here! <a href="http://www.lookingimage.com/forums/discussion/" target="_blank">Support forum</a>.</p>';
+
     /**
      * Check whether the form submitted or not.
      */
@@ -68,8 +64,13 @@ function Advancedlazyload_form()
 		
       }
 ?>
-
-	<form  style="float:left" id="option-form" method="post" name="option-form">
+<div  style="float:left;width:700px;" >
+	<form  id="option-form" method="post" name="option-form">
+	<h2>Welcome to use Advanced lazy load</h2>
+<p>By using ths plugin for wordpress, it will reduce the loading time while opening your wordpress website</p>
+<p>This is initial edition of Advanced lazy load, many features will be added in future versions, compatible with all current browsers.</p>
+	 <p>Please visit <a href="http://www.lookingimage.com/wordpress-plugin/wordpress-advanced-lazy-load/" target="_blank" >Advanced lazy load</a> for guidance/questions/news, enjoy! If you want me add you as demo website? Leave your comments! Next strong release will come soon!</p>
+	 <p>Need support? Click here! <a href="http://www.lookingimage.com/forums/discussion/" target="_blank">Support forum</a>.</p>
 		<table id="aws-option-table">
 			<tr>
 				<td>Pixel:</td>
@@ -96,12 +97,21 @@ function Advancedlazyload_form()
 	</form>
 
 	</div>
+	
+	
+	
 
-<div  style="float:right;margin-top:-160px;">
+<div  style="float:right;border-left:1px solid #eee;">
 <iframe  width="300" height="450" frameborder="1" src="http://www.runinweb.com/news.html"></iframe>
 <div style="clear:both;"></div>
 
 </div>
+
+<div id="wpfooter">
+<p>dsadsadsa</p>
+<div class="clear"></div>
+</div>
+
 	
  <?php
   }
