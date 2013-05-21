@@ -29,7 +29,7 @@ Following links can help you:
    <li><a href="http://www.lookingimage.com/wordpress-plugin/" target="_blank">Other plugins from lookingimage.com</a></li>
    </ul>
 
-<b>Particularly recommended - webtools for developers and webmasters: - <a href="http://runinweb.com/" target="_blank">runinWEB.com</a></b> 
+<strong>Particularly recommended - webtools for developers and webmasters: - <a href="http://runinweb.com/" target="_blank">runinWEB.com</a></strong> 
  <ul style="margin-left:40px;"> 
  <li>Domain tools - Comprehensive reporting...</li>
   <li>Script tools - Javascript compress and formatter...</li>
