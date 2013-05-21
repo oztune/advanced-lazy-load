@@ -29,6 +29,15 @@ Following links can help you:
    <li><a href="http://www.lookingimage.com/wordpress-plugin/" target="_blank">Other plugins from lookingimage.com</a></li>
    </ul>
 
+<b>Particularly recommended - webtools for developers and webmasters: - <a href="http://runinweb.com/" target="_blank">runinWEB.com</a></b> 
+ <ul style="margin-left:40px;"> 
+ <li>Domain tools - Comprehensive reporting...</li>
+  <li>Script tools - Javascript compress and formatter...</li>
+   <li>Useful tools - Business day calculator...</li>
+    <li>Json & XML tools - Json validator...</li>
+	 <li>Online generators - Online ribbon generator, CSS3 button...</li>
+	  <li>Useful tables - HTML special character table...</li>
+ </ul>
 
 == Installation ==
 
