@@ -119,12 +119,20 @@ if (!is_admin())
 	
 	
 	
-	
     function Advaced_lazyload($buffer)
       {
+        // Change all non-lazy-load images to a different tag
+	$ignore_pattern	 = '/(?:\<img(.*nolazy))/';
+	$buffer          = preg_replace($ignore_pattern, "<ignorelazy$1", $buffer);
+
+        // Change all images
         $plugin_dir_path = plugin_dir_url(__FILE__);
         $pattern         = '/((?:\<img).*)(src)/';
         $buffer          = preg_replace($pattern, "$1 src='" . $plugin_dir_path . "shade.gif' ImageHolder", $buffer);
+
+        // Change all non-lazy-load images back to image tags
+	$buffer          = preg_replace('/(?:\<ignorelazy(.*))/', "<img$1", $buffer);
+
         return $buffer;
       }
     function DOMReady()
